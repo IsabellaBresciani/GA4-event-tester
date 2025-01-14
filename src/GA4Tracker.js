@@ -106,7 +106,7 @@ class GA4Tracker {
                 });
     
                 // Log response status
-                console.log(`Response received for ${url}: Status ${status}`);
+                console.log(`Response Status ${status}`);
             }
         } catch (error) {
             console.error('Error handling GA4 response:', error);
@@ -287,9 +287,9 @@ class GA4Tracker {
         //console.log(eventDetails);
         //console.groupEnd();
 
-        console.group('User Properties');
-        console.log(userProperties.page_path);
-        console.groupEnd();
+        //console.group('User Properties');
+        //console.log(userProperties.page_path);
+        //console.groupEnd();
 
         if (itemList.length > 0) {
             console.group('Items');
