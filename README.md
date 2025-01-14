@@ -71,3 +71,6 @@ async function main() {
 *duration: Wait time (ms)
 *scroll: Enable scrolling (true/false)
 
+# Authors
+
+Isabella Bresciani - Initial work
